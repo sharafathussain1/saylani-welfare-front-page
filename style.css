@@ -1,0 +1,150 @@
+
+
+nav{
+    border-bottom: 1px solid black;
+    height: 120px;
+    display: flex; 
+    flex-wrap: wrap; 
+   
+}
+
+ul{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+margin-left: 70px;   
+}
+
+
+li{
+    list-style: none;
+     padding: 0px 20px; 
+     flex-wrap: wrap;   
+}
+li a {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;   
+}
+.first{
+    border: 15px solid green;
+    color: white;
+    background-color: green;
+    border-radius: 7px;  
+    flex-wrap: wrap;  
+}
+.second{
+    border: 15px solid blue;
+    color: white;
+    background-color: blue;
+    border-radius: 7px;   
+}
+.img{
+    float: right;
+    flex-wrap: wrap;
+    padding-right: 40px;
+    padding-top: 40px;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 50px;
+    margin-top: 170px;
+    
+}
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 50px;
+    margin-top: 50px;    
+}
+span{
+    color: blue;
+}
+h4{
+    text-transform: lowercase;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 50px;
+    margin-top: 50px;   
+}
+.button{
+    border: 1px solid blue;
+    width: 170px;
+    height: 35px;
+    margin-left: 50px;
+    text-align: center;
+    padding-top: 10px; 
+    border-radius: 5px;  
+}
+.button:hover{
+    color: white;
+    background-color: blue;
+}
+#first{
+    
+    margin-top: 50px;
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+}
+#ul{
+    display: flex;
+    /* border: 1px solid black; */
+    margin-right: 70px;
+    flex-wrap: wrap; 
+    
+}
+.list{
+    /* border: 1px solid black; */
+    padding: 0px 30px;
+    margin-right: 20px;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+   
+} 
+.list:hover{
+    color: white;
+    background-color: black;
+    border-radius: 7px;
+    
+}
+#donate{
+    background-color: green;
+    border-radius: 7px ;
+    border: 1px solid green;
+
+}
+#img{
+    display: flex;
+    margin: 0px auto;
+    margin-top: 40px;
+    height: 500px;
+    width: 1000px;
+    border-radius: 7px;
+}
+.heading{
+    text-align: center;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+}
+
+.images{
+    
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+
+}
+p{
+    align-items: center;
+    font-weight: bold;
+   
+}
